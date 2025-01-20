@@ -26,6 +26,12 @@
     width: 1440px;
     margin: 0 auto;
  }
+ .bg-color {
+    background-color: #F7F7F7;
+ }
+.text-light-gray {
+    color: #808080;
+}
  /* navbar related styles */
  .navbar {
     justify-content: space-around;
@@ -47,7 +53,7 @@
     font-size: 2rem;
  }
  .nav-link {
-    text-decoration: none;
+     
     font-weight: 500;
 }
 
@@ -87,4 +93,90 @@
     border-radius: 12px;
 
 }
+.icon-nav-btn {
+    display: none;
+}
+hr {
+    background-color: #FEA301;
+    display: none;
+}
  
+/* banner related style */
+
+.banner {
+    margin: 0 100px;
+ 
+}
+.banner-content {
+    margin: 122px 50px 122px 0px;
+     
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+.banner-description {
+    width: 100%;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+ 
+#empowerring {
+    color: #FEA301;
+}
+#towards-vision {
+    color: #01ACFD;
+}
+.banner-btn {
+    font-weight: 600;
+    font-size: 1.25rem;
+    background-color: #111111;
+    color: white;
+    padding: 10px 47px;
+    border: none;
+    border-radius: 12px;
+    margin-top: 24px;
+}
+.banner-img {
+    width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+    .nav-title, 
+    .nav-links, 
+    .nav-btn {
+        display: none;
+    }
+ 
+    .icon-nav-btn, hr {
+        display: block;
+    }
+ 
+    .icon-nav-btn{
+        font-size: 45px;
+    }
+ 
+    .banner {
+        flex-direction: column;
+        align-items: center;  
+    }
+    .banner-img {  
+        order: -1;
+    }
+    .banner-content{
+        text-align: center;
+    }
+    .banner-title {
+         font-size: 8rem;
+         font-weight: 700;
+    }
+    .banner-description { 
+        font-size: 4rem;  
+    }
+    .banner-btn {
+        font-size: 4rem;
+        padding: 20px 57px;
+    }
+
+}
