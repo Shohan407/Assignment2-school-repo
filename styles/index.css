@@ -141,7 +141,46 @@ hr {
 .banner-img {
     width: 100%;
 }
+/* standard related style */
+.standard-card-title{
+    font-weight: 700;
+    font-size: 2.80rem;
+    text-align: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.standard-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    margin-top: 80px;
+}
 
+.card {
+     width: 367px;
+     height: 476px;
+     text-align: center;
+     align-items: center;
+     border-radius: 18px;
+     border: 1px solid #EEE1FF;
+     background-color: #FFFFFF;
+     box-shadow: inset 1px 70px 50px rgba(222, 245, 255, 1);
+     
+}
+
+.card a  {
+    text-decoration: none;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #FEA301;
+}
+
+/* responsive media query */
 @media screen and (max-width: 576px) {
     .nav-title, 
     .nav-links, 
