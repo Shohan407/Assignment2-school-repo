@@ -292,8 +292,57 @@ main{
     border-radius: 12px;
 }
 
+/* footer related styles */
+footer {
+    background-color: #01ACFD;
+    color: white;
+    padding: 40px 20px;
+    margin-top: -40px;
+}
 
-
+.footer-container {
+    max-width: 1070px;
+    margin: 120px 220px 170px 140px ;
+    justify-content:  space-between;
+    gap: 20px;
+}
+.footer-item {
+     width: 300px;
+  }
+.footer-logo {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    filter: invert(100%);
+}
+.footer-title-1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+ 
+.footer-links {
+    list-style: none;
+}
+  
+ .footer-links li {
+    margin-bottom: 20px;
+}
+  
+.footer-links a {
+    text-decoration: none;
+    color: white;
+}
+  
+.footer-socials a {
+    margin-right: 10px;
+}
+  
+.footer-socials img {
+    width: 40px;
+    height: 40px;
+}
 
 /* Responsive media query */
 @media screen and (max-width: 576px) {
@@ -331,10 +380,7 @@ main{
         width: 100%;
         margin-bottom: 0;
     }
-    .bannar-discription{
-        font-size: 0.85rem;
-        padding: 0 10px;
-    }
+ 
     .standard-card{
         width: 300px;
        
@@ -343,36 +389,40 @@ main{
         display: none;
     }
      .nav-btn, .bannar-btn{
-        padding: 10px 20px;
+         padding: 10px 20px;
     }
       .single-story {
-        display: none;
+         display: none;
     }
       .multi-story {
-        width: 100%;
+         width: 100%;
     }
       .multiple-storys{
-        width: 100%;
+         width: 100%;
     }
  
      .multi-img{
-        width: 100%;
+         width: 100%;
     }
      .multi-btn{
-        font-size: 0.5rem;
-        font-weight: 400;
+         font-size: 0.5rem;
+         font-weight: 400;
     }
       #midle-btn{
-        margin-top: -20px;
-        margin-left: 20px;
+         margin-top: -20px;
+         margin-left: 20px;
     }
      .multi-title{
-        font-weight: bold;
-        font-size: 0.5rem;
-        width: 80%;
+         font-weight: bold;
+         font-size: 0.5rem;
+         width: 80%;
     }
      .our-story{
-        font-size: 1.6rem;
+         font-size: 1.6rem;
     }
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+      }
 }
  
