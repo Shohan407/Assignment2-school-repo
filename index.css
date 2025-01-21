@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+ 
+.quicksand-font{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+  body{
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow-x: auto;
+    overflow-y: auto;
+    width: 100%;
+  }
+  /* header-navbar-styles */
+  .bg-light{
+    background-color: #f7f7f7;
+     
+  }
+  .display-flex{
+    display: flex;
+  }
+  .navbar{
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+  }
+ 
+.nav-item{
+    list-style: none;
+    padding-left: 32px;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: medium;
+}
+.text-1{
+    color: #FEA301;
+}
+.text-2{
+    color: #01ACFD;
+}
+.text-3{
+    color: #05D4DF;
+}
+.text-4{
+    color: #5D58EF;
+}
+
+
+.nav-btn{
+    background-color: #FEA301;
+    padding: 10px 60.5px;
+    border-radius: 12px;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+.icon-nav-btn{
+    display: none;
+}
+.nav-horizotal{
+    display: none;
+}
+/* bannar section styles */
+.bannar{
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 50px;
+}
+.bannar-contant{
+    padding: 122px 50px 122px;
+}
+.bannar-title{
+    font-size: 3.5rem;
+    font-weight: 700;
+    width: 95%;
+}
+.bannar-discription{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #111111;
+    width: 100%;
+}
+#btn {
+    margin-top: 30px;
+}
+.bannar-btn{
+    font-weight: 700;
+    padding: 10px 47px;
+    background-color: #111111;
+    text-decoration: none;
+    border: none;
+    color: #ffffff;
+    border-radius: 12px;
+}
+.bannar-img{
+    width: 100%;
+}
+
+
+
+
+
+/* Responsive media query */
+@media screen and (max-width: 576px) {
+    .nav-links, 
+    .nav-title,
+    .nav-btn {
+        display: none
+    }
+    .icon-nav-btn, .nav-horizotal{
+        display: block;
+    }
+    .nav-horizotal{
+        background-color: #FEA301;
+        width: 90%;
+    }
+    .icon-nav-btn{
+        font-size: 40px;
+    }
+    .navbar{
+        
+    }
+    .bannar, .standard-cards{
+        flex-direction: column;
+       
+    }
+    .bannar-img{
+        order: -1;
+        width: 100%;
+    }
+    .bannar-contant{
+        text-align: center;
+        padding: 12px 0px 12px;
+    }
+    .bannar-title{
+        font-size: 2rem;
+        font-weight: bold;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .bannar-discription{
+        font-size: 0.85rem;
+        padding: 0 10px;
+    }
+}
