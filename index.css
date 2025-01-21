@@ -344,35 +344,35 @@ main{
     }
      .nav-btn, .bannar-btn{
         padding: 10px 20px;
-}
-.single-story {
-    display: none;
-}
-.multi-story {
-    width: 100%;
-}
-.multiple-storys{
-    width: 100%;
- }
+    }
+      .single-story {
+        display: none;
+    }
+      .multi-story {
+        width: 100%;
+    }
+      .multiple-storys{
+        width: 100%;
+    }
  
- .multi-img{
-    width: 100%;
- }
- .multi-btn{
-    font-size: 0.5rem;
-    font-weight: 400;
- }
- #midle-btn{
-    margin-top: -20px;
-    margin-left: 20px;
- }
- .multi-title{
-    font-weight: bold;
-    font-size: 0.5rem;
-    width: 80%;
- }
- .our-story{
-    font-size: 1.6rem;
-}
+     .multi-img{
+        width: 100%;
+    }
+     .multi-btn{
+        font-size: 0.5rem;
+        font-weight: 400;
+    }
+      #midle-btn{
+        margin-top: -20px;
+        margin-left: 20px;
+    }
+     .multi-title{
+        font-weight: bold;
+        font-size: 0.5rem;
+        width: 80%;
+    }
+     .our-story{
+        font-size: 1.6rem;
+    }
 }
  
