@@ -26,6 +26,9 @@
     align-items: center;
     margin: 20px 0;
 }
+ .nav-title {
+    font-weight: 700;
+ }
  
 .nav-item{
     list-style: none;
@@ -117,11 +120,14 @@ main{
     justify-content: center;
     gap: 28px;
 }
+.standard-discription {
+    padding: 0px 20px;
+}
 .standard-card{
     text-align: center;
     align-items: center;
     width: 367px;
-    height: 476px;
+    height: 400px;
     padding: 40px 0px;
     border-radius: 10px;
     background-color: #fff;
@@ -145,7 +151,6 @@ main{
 }
 .standard-discription{
     font-size: 0.9rem;
-    font-weight: 400px;
     color: #808080;
 }
 .standard-btn{
@@ -180,7 +185,7 @@ main{
     width: 100%;
     background-color: #01ACFD;
     color: white;
-    border: 1px solid rgb(103, 49, 190);
+    border: 2px solid rgb(103, 49, 190);
     border-radius: 15px;
     box-shadow:  1px 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -219,7 +224,7 @@ main{
     width: 100%;
  }
  .single-st-img{
-    width: 100%; 
+    width: 108%; 
  }
 
  .single-story-btn{
