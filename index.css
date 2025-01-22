@@ -103,7 +103,7 @@
 
 /* standard section styles */
 main{
-    background-image: url(../assets/bg.png);
+    background-image: url(assets/bg.png);
 }
 .standard-title{
     text-align: center;
@@ -175,12 +175,20 @@ main{
     color: #8700FF;
 }
 
-
+/* marquee related styles */
+.marquee{
+    width: 100%;
+    background-color: #01ACFD;
+    color: white;
+    border: 1px solid rgb(103, 49, 190);
+    border-radius: 15px;
+    box-shadow:  1px 4px 8px rgba(0, 0, 0, 0.1);
+}
 /* story related styles */
 
 .back-img {
     box-shadow: inset 33px -144px 659px -152px rgba(254, 163, 0, 1);
-    background: url(../assets/bg.png);
+    background: url(assets/bg.png);
 }
 
 
@@ -214,7 +222,7 @@ main{
     width: 100%; 
  }
 
- .single-st-btn{
+ .single-story-btn{
     padding: 15px 19px;
     background-color: #3CD8E8;
     color: #fff;
@@ -228,13 +236,13 @@ main{
     margin-top: -30px;
     margin-left: 30px;
  }
- .single-st-title{
+ .single-story-title{
     padding-left: 40px;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 700;
     width: 80%;
  }
- .single-st-discription{
+ .single-story-discription{
     padding-left: 40px;
     font-size: 1rem;
     font-weight: 400;
@@ -252,6 +260,9 @@ main{
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+ }
+ .multi-img {
+    width: 100%;
  }
  .multi-btn{
     position: relative;
@@ -390,6 +401,9 @@ footer {
     }
      .nav-btn, .bannar-btn{
          padding: 10px 20px;
+    }
+    .marquee {
+        display: none;
     }
       .single-story {
          display: none;
